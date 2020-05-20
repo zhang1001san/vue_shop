@@ -27,7 +27,8 @@ import {
   Tag,
   Tree,
   Select,
-  Option
+  Option,
+  Radio
 } from 'element-ui'
 
 Vue.use(Button)
@@ -56,6 +57,7 @@ Vue.use(Tag)
 Vue.use(Tree)
 Vue.use(Select)
 Vue.use(Option)
+Vue.use(Radio)
 // 全局挂载
 Vue.prototype.$message = Message
 Vue.prototype.$confirm = MessageBox.confirm
