@@ -26,3 +26,14 @@ body,
 .el-cascader-panel{
   height: 200px;
 }
+body .el-table th.gutter{
+  display: table-cell!important;
+}
+
+.el-steps{
+  margin: 15px 0;
+}
+
+.ql-editor{
+  min-height:400px;
+}
